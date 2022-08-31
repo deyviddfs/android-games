@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Games</string>
+    <string name="resumo">Resumo:</string>
+    <string name="descricao">Descrição:</string>
+    <string name="plataforma">Plataforma:</string>
+    <string name="desenvolvedor">Desenvolvedor:</string>
+    <string name="data_lancamento">Data lançamento:</string>
+    <string name="capa_do_jogo">Capa do Jogo</string>
 </resources>
