@@ -10,7 +10,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import br.com.deyvidfernandes.games.GameInfoActivity
 import br.com.deyvidfernandes.games.R
-import br.com.deyvidfernandes.games.model.Game
+import br.com.deyvidfernandes.games.network.Game
 import com.squareup.picasso.Picasso
 
 class GameAdapter(private val dataSet: List<Game>): RecyclerView.Adapter<GameAdapter.ViewHolder>(){

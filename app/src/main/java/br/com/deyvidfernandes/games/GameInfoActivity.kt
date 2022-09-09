@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import br.com.deyvidfernandes.games.databinding.ActivityGameInfoBinding
-import br.com.deyvidfernandes.games.model.GameInfo
+import br.com.deyvidfernandes.games.network.GameInfo
 import br.com.deyvidfernandes.games.network.GameApi
 import com.squareup.picasso.Picasso
 import kotlinx.coroutines.CoroutineScope

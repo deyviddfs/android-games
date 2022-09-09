@@ -6,7 +6,7 @@ import android.util.Log
 import androidx.recyclerview.widget.GridLayoutManager
 import br.com.deyvidfernandes.games.adapter.GameAdapter
 import br.com.deyvidfernandes.games.databinding.ActivityMainBinding
-import br.com.deyvidfernandes.games.model.Game
+import br.com.deyvidfernandes.games.network.Game
 import br.com.deyvidfernandes.games.network.GameApi
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

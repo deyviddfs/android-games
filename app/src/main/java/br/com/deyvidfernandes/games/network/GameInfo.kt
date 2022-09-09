@@ -1,4 +1,4 @@
-package br.com.deyvidfernandes.games.model
+package br.com.deyvidfernandes.games.network
 
 import com.squareup.moshi.Json
 

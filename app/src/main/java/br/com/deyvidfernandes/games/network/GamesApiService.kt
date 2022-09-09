@@ -1,8 +1,6 @@
 package br.com.deyvidfernandes.games.network
 
 
-import br.com.deyvidfernandes.games.model.Game
-import br.com.deyvidfernandes.games.model.GameInfo
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import retrofit2.Retrofit
