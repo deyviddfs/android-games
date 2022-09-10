@@ -26,15 +26,17 @@
                 android:textSize="40sp"
                 android:textStyle="bold"
                 android:gravity="center"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:text="@tools:sample/first_names"/>
 
             <ImageView
                 android:id="@+id/imageViewDemo"
-                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/capa_do_jogo"
                 android:scaleType="centerCrop"
-                android:contentDescription="@string/capa_do_jogo" />
+                tools:srcCompat="@tools:sample/avatars" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -47,7 +49,8 @@
                 android:id="@+id/textViewShortDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="5dp"/>
+                android:paddingBottom="5dp"
+                tools:text="@tools:sample/lorem"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -60,7 +63,8 @@
                 android:id="@+id/textViewDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="5dp"/>
+                android:paddingBottom="5dp"
+                tools:text="@tools:sample/lorem"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -73,7 +77,8 @@
                 android:id="@+id/textViewPlatform"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="5dp"/>
+                android:paddingBottom="5dp"
+                tools:text="@tools:sample/lorem"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -86,7 +91,8 @@
                 android:id="@+id/textViewDeveloper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="5dp"/>
+                android:paddingBottom="5dp"
+                tools:text="@tools:sample/lorem"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -99,7 +105,8 @@
                 android:id="@+id/textViewReleaseDate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="5dp"/>
+                android:paddingBottom="5dp"
+                tools:text="@tools:sample/date/ddmmyy"/>
 
         </LinearLayout>
     </ScrollView>
